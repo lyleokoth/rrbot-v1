@@ -97,7 +97,7 @@ def homog_transxyz(dx, dy, dz):
     Create a 4x4 homogeneous translation matrix (translation along the x,y,z axes)
 
     parameters
-    ----------
+    ---------- 
     dx : double
         Translation along the x axis
     dy : double

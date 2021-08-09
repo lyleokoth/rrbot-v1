@@ -8,6 +8,7 @@ Panels:
         - /Status1
         - /RobotModel1
         - /RobotModel1/Links1
+        - /RobotModel1/Links1/end_effector1
         - /RobotModel1/Links1/link11
         - /RobotModel1/Links1/link21
         - /RobotModel1/Links1/link31
@@ -68,6 +69,20 @@ Visualization Manager:
         Expand Link Details: true
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+        camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        end_effector:
+          Alpha: 1
+          Show Axes: true
+          Show Trail: false
+        hokuyo_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         link1:
           Alpha: 0.5
           Show Axes: true
@@ -121,7 +136,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 4.248157501220703
+      Distance: 3.9402854442596436
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -129,9 +144,9 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -0.5394414067268372
-        Y: -0.4668816924095154
-        Z: 0.43365949392318726
+        X: -1.6414188146591187
+        Y: -0.7880703806877136
+        Z: 1.567755103111267
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
